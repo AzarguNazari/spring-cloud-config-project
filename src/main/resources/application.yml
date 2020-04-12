@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AzarguNazari/my-config-server
+          search-paths: 'station*'
+#          username: uname
+#          password: pass
+#  profiles:
+#    active: native
